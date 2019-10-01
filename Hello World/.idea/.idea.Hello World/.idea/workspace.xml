@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb41fbbf-a3ac-4001-8e4c-11b369eecd7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Hello World/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Hello World/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Hello World/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Hello World/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Number Wizard/.idea/.idea.Number Wizard/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Number Wizard/.idea/.idea.Number Wizard/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Number Wizard/.idea/.idea.Number Wizard/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Number Wizard/.idea/.idea.Number Wizard/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Number Wizard/.idea/.idea.Number Wizard/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Number Wizard/.idea/.idea.Number Wizard/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Number Wizard/.idea/.idea.Number Wizard/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Number Wizard/.idea/.idea.Number Wizard/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hello World/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hello World/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,15 +21,15 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/HelloWorld.cs">
+        <entry file="file://$PROJECT_DIR$/../Number Wizard/Assets/Scripts/NumberWizard.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="165">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding>
-                <marker date="1569894344477" expanded="false" signature="6:78" ph="..." />
-                <marker date="1569894344477" expanded="true" signature="119:313" ph="{...}" />
-                <marker date="1569894344477" expanded="true" signature="191:232" ph="{...}" />
-                <marker date="1569894344477" expanded="true" signature="290:311" ph="{...}" />
+                <marker date="1569896051119" expanded="false" signature="6:78" ph="..." />
+                <marker date="1569896051119" expanded="true" signature="121:528" ph="{...}" />
+                <marker date="1569896051119" expanded="true" signature="193:447" ph="{...}" />
+                <marker date="1569896051119" expanded="true" signature="505:526" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -36,18 +41,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../Number Wizard/Assets/Scripts/NumberWizard.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HelloWorld.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/HelloWorld.cs" />
+        <option value="$PROJECT_DIR$/../Number Wizard/Assets/Scripts/NumberWizard.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1229" />
-    <option name="y" value="174" />
+    <option name="x" value="1191" />
+    <option name="y" value="125" />
     <option name="width" value="1074" />
     <option name="height" value="1084" />
   </component>
@@ -111,12 +118,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569894060366</updated>
-      <workItem from="1569894066520" duration="888000" />
+      <workItem from="1569894066520" duration="1875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="888000" />
+    <option name="totallyTimeSpent" value="1875000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -128,8 +135,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1229" y="174" width="1074" height="1084" extended-state="0" />
-    <editor active="true" />
+    <frame x="1191" y="125" width="1074" height="1084" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Image Layers" />
@@ -179,12 +185,25 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/HelloWorld.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <marker date="1569894344477" expanded="false" signature="6:78" ph="..." />
             <marker date="1569894344477" expanded="true" signature="119:313" ph="{...}" />
             <marker date="1569894344477" expanded="true" signature="191:232" ph="{...}" />
             <marker date="1569894344477" expanded="true" signature="290:311" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Number Wizard/Assets/Scripts/NumberWizard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <marker date="1569896051119" expanded="false" signature="6:78" ph="..." />
+            <marker date="1569896051119" expanded="true" signature="121:528" ph="{...}" />
+            <marker date="1569896051119" expanded="true" signature="193:447" ph="{...}" />
+            <marker date="1569896051119" expanded="true" signature="505:526" ph="{...}" />
           </folding>
         </state>
       </provider>
