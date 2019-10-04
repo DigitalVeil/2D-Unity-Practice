@@ -4,9 +4,9 @@
     <list default="true" id="00031ab3-a769-4312-bd37-464848c430c8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Number Wizard/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Number Wizard/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/NumberWizard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NumberWizard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/215be5-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/215be5-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/63/63949168772e58e4e8de50155b35ae02" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/63/63949168772e58e4e8de50155b35ae02" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
@@ -18,20 +18,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/NumberWizard.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="480">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding>
-                <marker date="1569976650786" expanded="false" signature="6:78" ph="..." />
-                <marker date="1569976650786" expanded="true" signature="121:1477" ph="{...}" />
-                <marker date="1569976650786" expanded="true" signature="307:769" ph="{...}" />
-                <marker date="1569976650786" expanded="true" signature="827:1475" ph="{...}" />
-                <marker date="1569976650786" expanded="true" signature="880:1078" ph="{...}" />
-                <marker date="1569976650786" expanded="true" signature="1133:1335" ph="{...}" />
-                <marker date="1569976650786" expanded="true" signature="1387:1469" ph="{...}" />
+                <marker date="1570147927098" expanded="false" signature="6:78" ph="..." />
+                <marker date="1570147927098" expanded="true" signature="121:1955" ph="{...}" />
+                <marker date="1570147927098" expanded="true" signature="307:342" ph="{...}" />
+                <marker date="1570147927098" expanded="true" signature="364:1004" ph="{...}" />
+                <marker date="1570147927098" expanded="true" signature="1062:1500" ph="{...}" />
+                <marker date="1570147927098" expanded="true" signature="1115:1197" ph="{...}" />
+                <marker date="1570147927098" expanded="true" signature="1252:1335" ph="{...}" />
+                <marker date="1570147927098" expanded="true" signature="1387:1494" ph="{...}" />
+                <marker date="1570147927098" expanded="true" signature="1522:1729" ph="{...}" />
+                <marker date="1570147927098" expanded="true" signature="1750:1953" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -53,8 +56,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1184" />
-    <option name="y" value="169" />
+    <option name="x" value="1222" />
+    <option name="y" value="52" />
     <option name="width" value="1074" />
     <option name="height" value="1084" />
   </component>
@@ -64,7 +67,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -83,10 +90,6 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,11 +137,12 @@
       <updated>1569895692630</updated>
       <workItem from="1569895693758" duration="378000" />
       <workItem from="1569971260565" duration="4645000" />
+      <workItem from="1570146459774" duration="2064000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5023000" />
+    <option name="totallyTimeSpent" value="7087000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -150,9 +154,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1184" y="169" width="1074" height="1084" extended-state="0" />
+    <frame x="1222" y="52" width="1074" height="1084" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25443786" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25936884" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -199,16 +203,19 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/NumberWizard.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="480">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
-            <marker date="1569976650786" expanded="false" signature="6:78" ph="..." />
-            <marker date="1569976650786" expanded="true" signature="121:1477" ph="{...}" />
-            <marker date="1569976650786" expanded="true" signature="307:769" ph="{...}" />
-            <marker date="1569976650786" expanded="true" signature="827:1475" ph="{...}" />
-            <marker date="1569976650786" expanded="true" signature="880:1078" ph="{...}" />
-            <marker date="1569976650786" expanded="true" signature="1133:1335" ph="{...}" />
-            <marker date="1569976650786" expanded="true" signature="1387:1469" ph="{...}" />
+            <marker date="1570147927098" expanded="false" signature="6:78" ph="..." />
+            <marker date="1570147927098" expanded="true" signature="121:1955" ph="{...}" />
+            <marker date="1570147927098" expanded="true" signature="307:342" ph="{...}" />
+            <marker date="1570147927098" expanded="true" signature="364:1004" ph="{...}" />
+            <marker date="1570147927098" expanded="true" signature="1062:1500" ph="{...}" />
+            <marker date="1570147927098" expanded="true" signature="1115:1197" ph="{...}" />
+            <marker date="1570147927098" expanded="true" signature="1252:1335" ph="{...}" />
+            <marker date="1570147927098" expanded="true" signature="1387:1494" ph="{...}" />
+            <marker date="1570147927098" expanded="true" signature="1522:1729" ph="{...}" />
+            <marker date="1570147927098" expanded="true" signature="1750:1953" ph="{...}" />
           </folding>
         </state>
       </provider>

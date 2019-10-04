@@ -12,12 +12,22 @@ public class NumberWizard : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {  
+        GameStart();
+    }
+
+    void GameStart()
+    {
+        maxNumber = 1000;
+        minNumber = 1;
+        guessNumber = 500;
+        
         Debug.Log("Hey there! Welcome to Number Wizard: Console Edition");
         Debug.Log("Pick a number, any number!");
         Debug.Log("Not too high though, we can only count to "  + maxNumber + "...");
         Debug.Log("Heck, you could even start at " + minNumber + "!"); 
         
-        Debug.Log("Well? How's my guess?");
+        Debug.Log("Well then, let's get started shall we?");
+        Debug.Log("Is your guess higher or lower than " + guessNumber + "?");
         
         Debug.Log("Up = Higher, Down = Lower, Enter = Nailed it");
 
@@ -29,23 +39,36 @@ public class NumberWizard : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.UpArrow))
          {
-            Debug.Log("Ah! So higher is it?");
-            minNumber = guessNumber;
-            guessNumber = (maxNumber + minNumber) / 2; 
-            Debug.Log(guessNumber);
+           minNumber = guessNumber;
+           HighGuess();
          }
 
         else if (Input.GetKeyDown(KeyCode.DownArrow))
          {
-            Debug.Log("Low ball, eh? Alright...");
             maxNumber = guessNumber;
-            guessNumber = (maxNumber + minNumber) / 2; 
-            Debug.Log(guessNumber);
+            LowGuess();
          }
 
         else if (Input.GetKeyDown(KeyCode.Return))
         {
             Debug.Log("Nice! I'm pretty good at this, huh?");
+            GameStart();
         }
+    }
+
+    void HighGuess()
+    {
+        Debug.Log("Ah! So higher is it?");
+        minNumber = guessNumber;
+        guessNumber = (maxNumber + minNumber) / 2;
+        Debug.Log("Alright then...how about " + guessNumber + "?");
+    }
+
+    void LowGuess()
+    {
+        Debug.Log("Low ball, eh? Alright...");
+        maxNumber = guessNumber;
+        guessNumber = (maxNumber + minNumber) / 2; 
+        Debug.Log("Okay! Let's try " + guessNumber + ".");
     }
 }
