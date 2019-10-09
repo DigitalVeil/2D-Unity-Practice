@@ -6,7 +6,9 @@
     <e p="D:\GitKraken\2D Unity Practice\Playing With Sprites" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="First State Text.txt" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="State.cs" t="Include" />
           <e p="TextGame.cs" t="Include" />
         </e>
       </e>

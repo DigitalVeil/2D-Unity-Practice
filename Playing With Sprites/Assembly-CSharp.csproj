@@ -57,7 +57,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\State.cs" />
     <Compile Include="Assets\Scripts\TextGame.cs" />
+    <None Include="Assets\First State Text.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/GitKraken/2D Unity Practice/Playing With Sprites/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

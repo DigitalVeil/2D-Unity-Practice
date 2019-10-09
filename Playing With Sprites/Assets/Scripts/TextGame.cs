@@ -5,11 +5,15 @@ using UnityEngine.UI;
 
 public class TextGame : MonoBehaviour
 {
-    [SerializeField] Text textComponent; 
+    [SerializeField] Text textComponent;
+    [SerializeField] private State startState;
+
+    private State state; 
     // Start is called before the first frame update
     void Start()
     {
-        textComponent.text = ("When humanity is at its end, what will your last moments be? ");
+        state = startState;
+        textComponent.text = state.GetStateStory();
     }
 
     // Update is called once per frame

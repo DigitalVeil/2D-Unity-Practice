@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Text101.unity
+- path: Assets/Scenes/Text101.unity
   isLoaded: 1
   isActive: 1

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0815702625479134d9d4f4733018314a, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: "Temporal Isolation\r\n\r\nThe steady hum of a distant generator served
+    as a backdrop for the softly lit room. Neatly ordered around the perimeter were
+    containment capsules large enough to house a human. Some were open, revealing
+    a cushioned interior with machinery to maintain hibernation, while others were
+    destroyed. Those that remained sealed were frozen in time, unaware of the reality
+    that awaited them. \r\n\r\nA firm rapping on an undisturbed capsule disrupted
+    the eerie serenity of the scene followed by a lax but commanding order, only partly
+    muffled by the barrier between the caller and sleeper. \r\n\r\n\"It's time, displaced
+    one.\" \r\n\r\n1.) Try to move your body?\r\n2.) Nod your head. "
