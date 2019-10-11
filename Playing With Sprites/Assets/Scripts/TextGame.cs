@@ -8,12 +8,15 @@ public class TextGame : MonoBehaviour
     [SerializeField] Text textComponent;
     [SerializeField] private State startState;
 
+    private int[] oddNumbers = {1, 3, 5, 7, 9 };
+    
     private State state; 
     // Start is called before the first frame update
     void Start()
     {
         state = startState;
         textComponent.text = state.GetStateStory();
+        Debug.Log(oddNumbers[3]);
     }
 
     // Update is called once per frame
